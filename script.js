@@ -919,3 +919,4 @@ function adjustForDevice() {
 // Chamar na inicialização e no resize
 adjustForDevice();
 window.addEventListener('resize', debounce(adjustForDevice, 250));
+
